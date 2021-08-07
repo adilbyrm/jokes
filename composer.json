@@ -1,0 +1,23 @@
+{
+    "name": "adilbyrm/chuck-norris-jokes",
+    "description": "chuck norris jokes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Adil Bayram",
+        "email": "adilbyrm@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "AdilByrm\\ChuckNorrisJokes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AdilByrm\\ChuckNorrisJokes\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
