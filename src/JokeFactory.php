@@ -7,7 +7,7 @@ class JokeFactory
     protected $jokes = [
         'If you spell Chuck Norris in Scrabble, you win. Forever.',
         'Chuck Norris breathes air … five times a day.',
-        'When God said, “Let there be light!” Chuck said, “Say Please.”'
+        'When God said, “Let there be light!” Chuck said, “Say Please.”',
     ];
 
     public function __construct(array $jokes = null)

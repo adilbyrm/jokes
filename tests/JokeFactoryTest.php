@@ -11,7 +11,7 @@ class JokeFactoryTest extends TestCase
     public function it_return_a_random_joke()
     {
         $joke = new JokeFactory([
-            'it is a random joke'
+            'it is a random joke',
         ]);
 
         $joke = $joke->getRandomJoke();
@@ -25,7 +25,7 @@ class JokeFactoryTest extends TestCase
         $chuckNorrisJokes = [
             'If you spell Chuck Norris in Scrabble, you win. Forever.',
             'Chuck Norris breathes air … five times a day.',
-            'When God said, “Let there be light!” Chuck said, “Say Please.”'
+            'When God said, “Let there be light!” Chuck said, “Say Please.”',
         ];
 
         $joke = new JokeFactory();
